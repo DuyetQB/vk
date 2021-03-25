@@ -1,7 +1,7 @@
 
 
 
-.container-fluid{
+.container{
   position: relative;
   overflow: hidden;
 }
@@ -57,6 +57,7 @@ padding-top: 170px;
   .image-first{
     background-image: url(https://st6-20.vk.com/images/blog/about/img_about_1.png);
    background-repeat: no-repeat;
+  
   }
   .text-detail h1 .conection{
       background: #F1F6FB;
@@ -188,7 +189,7 @@ z-index: 1;
   }
   .history-scroll .history-scroll-item{
     padding: 32px;
-
+margin-top: 6px;
   }
   .history-scroll .history-scroll-item h4{
     font-weight: 700;
@@ -410,3 +411,16 @@ z-index: 10;
      
   }
 }
+
+@media (max-width: 779px){
+  .text-detail h1 ,.text-detail h1 .conection,
+  .metrics .metrics-title h1
+  
+  {
+    font-size: 35px;
+  }
+  .image-works-city-item p{
+    font-size: 30px;
+  }
+}
+
